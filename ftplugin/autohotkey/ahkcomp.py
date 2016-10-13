@@ -19,7 +19,7 @@ A pair of braces denotes a block. Blocks are typically used with functions, Else
     """BlockInput""":
     """BlockInput, Mode
 
-Disables or enables the user's ability to interact with the computer via keyboard and mouse. """,
+Disables or enables the user`s ability to interact with the computer via keyboard and mouse. """,
 
     """Break""":
     """Break [, LoopLabel]
@@ -50,7 +50,7 @@ Creates a SafeArray for use with COM.""",
     """ComObjConnect()""":
     """ComObjConnect(ComObject [, Prefix])
 
-Connects the object's event sources to functions with a given prefix.""",
+Connects the object`s event sources to functions with a given prefix.""",
 
     """ComObjCreate()""":
     """ComObject := ComObjCreate(CLSID [, IID])
@@ -65,7 +65,7 @@ Enables or disables notification of COM errors.""",
     """ComObjFlags()""":
     """Flags := ComObjFlags(ComObject [, NewFlags, Mask])
 
-Retrieves or changes flags which control a COM wrapper object's behaviour.""",
+Retrieves or changes flags which control a COM wrapper object`s behaviour.""",
 
     """ComObjGet()""":
     """ComObject := ComObjGet(Name)
@@ -180,12 +180,12 @@ Calls a function inside a DLL, such as a standard Windows API function.""",
     """Drive""":
     """Drive, Sub-command [, Drive , Value]
 
-Ejects/retracts the tray in a CD or DVD drive, or sets a drive's volume label. """,
+Ejects/retracts the tray in a CD or DVD drive, or sets a drive`s volume label. """,
 
     """DriveGet""":
     """DriveGet, OutputVar, Cmd [, Value]
 
-Retrieves various types of information about the computer's drive(s). """,
+Retrieves various types of information about the computer`s drive(s). """,
 
     """DriveSpaceFree""":
     """DriveSpaceFree, OutputVar, Path
@@ -335,7 +335,7 @@ Opens a file.""",
     """FileRead""":
     """FileRead, OutputVar, Filename
 
-Reads a file's contents into a variable.""",
+Reads a file`s contents into a variable.""",
 
     """FileReadLine""":
     """FileReadLine, OutputVar, Filename, LineNum
@@ -453,7 +453,7 @@ IfGreater, var, value (same: if var > value)
 IfGreaterOrEqual, var, value (same: if var >= value)
 IfLess, var, value (same: if var < value)
 IfLessOrEqual, var, value (same: if var <= value)
-If var ; If var's contents are blank or 0, it is considered false. Otherwise, it is true.
+If var ; If var`s contents are blank or 0, it is considered false. Otherwise, it is true.
 if Var between LowerBound and UpperBound
 if Var not between LowerBound and UpperBound
 See also: IfInString
@@ -465,7 +465,7 @@ if Var not in <i>MatchList<br>
 </i>if Var contains MatchList
 if Var not contains MatchList
 
-Checks whether a variable's contents match one of the items in a list.
+Checks whether a variable`s contents match one of the items in a list.
 """,
 
     """IfEqual""":
@@ -475,7 +475,7 @@ IfGreater, var, value (same: if var > value)
 IfGreaterOrEqual, var, value (same: if var >= value)
 IfLess, var, value (same: if var < value)
 IfLessOrEqual, var, value (same: if var <= value)
-If var ; If var's contents are blank or 0, it is considered false. Otherwise, it is true.
+If var ; If var`s contents are blank or 0, it is considered false. Otherwise, it is true.
 
 See also: IfInString
 
@@ -488,7 +488,7 @@ IfGreater, var, value (same: if var > value)
 IfGreaterOrEqual, var, value (same: if var >= value)
 IfLess, var, value (same: if var < value)
 IfLessOrEqual, var, value (same: if var <= value)
-If var ; If var's contents are blank or 0, it is considered false. Otherwise, it is true.
+If var ; If var`s contents are blank or 0, it is considered false. Otherwise, it is true.
 
 See also: IfInString
 
@@ -501,7 +501,7 @@ IfGreater, var, value (same: if var > value)
 IfGreaterOrEqual, var, value (same: if var >= value)
 IfLess, var, value (same: if var < value)
 IfLessOrEqual, var, value (same: if var <= value)
-If var ; If var's contents are blank or 0, it is considered false. Otherwise, it is true.
+If var ; If var`s contents are blank or 0, it is considered false. Otherwise, it is true.
 
 See also: IfInString
 
@@ -514,7 +514,7 @@ IfGreater, var, value (same: if var > value)
 IfGreaterOrEqual, var, value (same: if var >= value)
 IfLess, var, value (same: if var < value)
 IfLessOrEqual, var, value (same: if var <= value)
-If var ; If var's contents are blank or 0, it is considered false. Otherwise, it is true.
+If var ; If var`s contents are blank or 0, it is considered false. Otherwise, it is true.
 
 See also: IfInString
 
@@ -527,7 +527,7 @@ IfGreater, var, value (same: if var > value)
 IfGreaterOrEqual, var, value (same: if var >= value)
 IfLess, var, value (same: if var < value)
 IfLessOrEqual, var, value (same: if var <= value)
-If var ; If var's contents are blank or 0, it is considered false. Otherwise, it is true.
+If var ; If var`s contents are blank or 0, it is considered false. Otherwise, it is true.
 
 See also: IfInString
 
@@ -540,7 +540,7 @@ IfGreater, var, value (same: if var > value)
 IfGreaterOrEqual, var, value (same: if var >= value)
 IfLess, var, value (same: if var < value)
 IfLessOrEqual, var, value (same: if var <= value)
-If var ; If var's contents are blank or 0, it is considered false. Otherwise, it is true.
+If var ; If var`s contents are blank or 0, it is considered false. Otherwise, it is true.
 
 See also: IfInString
 
@@ -571,7 +571,7 @@ if Var not in <i>MatchList<br>
 </i>if Var contains MatchList
 if Var not contains MatchList
 
-Checks whether a variable's contents match one of the items in a list.""",
+Checks whether a variable`s contents match one of the items in a list.""",
 
     """IfInString""":
     """IfInString, var, SearchString
@@ -680,13 +680,13 @@ Displays the script lines most recently executed.""",
     """ListVars""":
     """ListVars
 
-Displays the script's variables: their names and current contents.""",
+Displays the script`s variables: their names and current contents.""",
 
     """ListView""":
     """Gui, Add, ListView, Options, ColumnTitle1|ColumnTitle2|...
 
-A List-View is one of the most elaborate controls provided by the operating system. In its most recognizable form, it displays a tabular view of rows and columns, the most common example of which is Explorer's list of files and folders (detail view).</p>
-<p>Though it may be elaborate, a ListView's basic features are easy to use. The syntax for creating a ListView is:""",
+A List-View is one of the most elaborate controls provided by the operating system. In its most recognizable form, it displays a tabular view of rows and columns, the most common example of which is Explorer`s list of files and folders (detail view).</p>
+<p>Though it may be elaborate, a ListView`s basic features are easy to use. The syntax for creating a ListView is:""",
 
     """Loop""":
     """Loop [, Count]
@@ -739,12 +739,12 @@ Displays the specified text in a small window containing one or more buttons (su
     """ObjAddRef()""":
     """ObjAddRef(Ptr)<br>ObjRelease(Ptr)
 
-Increments or decrements an object's reference count.""",
+Increments or decrements an object`s reference count.""",
 
     """ObjRelease()""":
     """ObjAddRef(Ptr)<br>ObjRelease(Ptr)
 
-Increments or decrements an object's reference count.""",
+Increments or decrements an object`s reference count.""",
 
     """OnExit""":
     """OnExit [, Label]
@@ -765,7 +765,7 @@ Sends a string to the debugger (if any) for display.""",
     """#p::Pause ; Pressing Win+P once will pause the script. Pressing it again will unpause.
 Pause [, On|Off|Toggle, OperateOnUnderlyingThread?]
 
-Pauses the script's current thread.""",
+Pauses the script`s current thread.""",
 
     """PixelGetColor""":
     """PixelGetColor, OutputVar, X, Y [, Alt|Slow|RGB]
@@ -1017,7 +1017,7 @@ Sets the delay that will occur after each windowing command, such as WinActivate
     """SetWorkingDir""":
     """SetWorkingDir, DirName
 
-Changes the script's current working directory. """,
+Changes the script`s current working directory. """,
 
     """Shutdown""":
     """Shutdown, Code
@@ -1032,7 +1032,7 @@ Waits the specified amount of time before continuing.""",
     """Sort""":
     """Sort, VarName [, Options]
 
-Arranges a variable's contents in alphabetical, numerical, or random order (optionally removing duplicates).""",
+Arranges a variable`s contents in alphabetical, numerical, or random order (optionally removing duplicates).""",
 
     """SoundBeep""":
     """SoundBeep [, Frequency, Duration]
@@ -1089,7 +1089,7 @@ Retrieves the text from a standard status bar control. """,
     """StatusBarWait""":
     """StatusBarWait [, BarText, Seconds, Part#, WinTitle, WinText, Interval, ExcludeTitle, ExcludeText]
 
-Waits until a window's status bar contains the specified string.""",
+Waits until a window`s status bar contains the specified string.""",
 
     """StringCaseSense""":
     """StringCaseSense, On|Off|Locale
@@ -1237,7 +1237,7 @@ Creates a balloon message window near the tray icon. Requires Windows 2000/XP or
     """TreeView""":
     """Gui, Add, TreeView, Options
 
-A Tree-View displays a hierarchy of items by indenting child items beneath their parents. The most common example is Explorer's tree of drives and folders.""",
+A Tree-View displays a hierarchy of items by indenting child items beneath their parents. The most common example is Explorer`s tree of drives and folders.""",
 
     """Trim""":
     """Result :=  Trim(String, OmitChars = " `t")
@@ -1266,7 +1266,7 @@ Downloads a file from the Internet.""",
     """VarSetCapacity()""":
     """GrantedCapacity := VarSetCapacity(UnquotedVarName [, RequestedCapacity, FillByte])
 
-Enlarges a variable's holding capacity or frees its memory. Normally, this is necessary only for unusual circumstances such as DllCall.""",
+Enlarges a variable`s holding capacity or frees its memory. Normally, this is necessary only for unusual circumstances such as DllCall.""",
 
     """While-loop""":
     """While Expression
@@ -1291,7 +1291,7 @@ Closes the specified  window.""",
     """WinGet""":
     """WinGet, OutputVar [, Cmd, WinTitle, WinText, ExcludeTitle, ExcludeText]
 
-Retrieves the specified window's unique ID, process ID, process name, or a list of its controls. It can also retrieve a list of all windows matching the specified criteria.""",
+Retrieves the specified window`s unique ID, process ID, process name, or a list of its controls. It can also retrieve a list of all windows matching the specified criteria.""",
 
     """WinGetActiveStats""":
     """WinGetActiveStats, Title, Width, Height, X, Y
@@ -1306,7 +1306,7 @@ Retrieves the title of the active window.""",
     """WinGetClass""":
     """WinGetClass, OutputVar [, WinTitle, WinText, ExcludeTitle, ExcludeText]
 
-Retrieves the specified window's class name.""",
+Retrieves the specified window`s class name.""",
 
     """WinGetPos""":
     """WinGetPos [, X, Y, Width, Height, WinTitle, WinText, ExcludeTitle, ExcludeText]
@@ -1428,7 +1428,7 @@ Changes how long the script keeps trying to access the clipboard when the first 
     """#CommentFlag""":
     """#CommentFlag NewString
 
-Changes the script's comment symbol from semicolon to some other string.""",
+Changes the script`s comment symbol from semicolon to some other string.""",
 
     """#ErrorStdOut""":
     """#ErrorStdOut
@@ -1438,7 +1438,7 @@ Sends any syntax error that prevents a script from launching to stdout rather th
     """#EscapeChar""":
     """#EscapeChar NewChar
 
-Changes the script's escape character (e.g. accent vs. backslash).""",
+Changes the script`s escape character (e.g. accent vs. backslash).""",
 
     """#HotkeyInterval""":
     """#HotkeyInterval Milliseconds
@@ -1508,7 +1508,7 @@ Creates context-sensitive hotkeys and hotstrings. Such hotkeys perform a differe
 #Include <LibName>
 #IncludeAgain FileOrDirName
 
-Causes the script to behave as though the specified file's contents are present at this exact position.""",
+Causes the script to behave as though the specified file`s contents are present at this exact position.""",
 
     """#InputLevel""":
     """#InputLevel [, Level]
