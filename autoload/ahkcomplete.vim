@@ -13,9 +13,9 @@
 
 
 let s:plugin_path = escape(expand('<sfile>:p:h'), '\')
-"exe 'python sys.path = ["' . s:plugin_path . '"] + sys.path'
+"exe 'py3 sys.path = ["' . s:plugin_path . '"] + sys.path'
 
-python << PYEOL
+py3 << PYEOL
 import sys
 import vim
 sys.path.append(vim.eval("s:plugin_path"))
@@ -24,7 +24,7 @@ PYEOL
 
 function! DebugMsg(msg)
     "let g:debug_str = a:msg
-    "exe 'python debugmsg()'
+    "exe 'py3 debugmsg()'
 endfunction
 
 function! ahkcomplete#Complete(findstart, base)
@@ -45,10 +45,10 @@ function! ahkcomplete#Complete(findstart, base)
         endwhile
         return 0
     else
-        execute 'python ahkcomp.ahk_complete("' . a:base . '")'
+        execute 'py3 ahkcomp.ahk_complete("' . a:base . '")'
         call sort(g:ahk_complete_dict)
         return g:ahk_complete_dict
     endif
 endfunction
 
- 
+

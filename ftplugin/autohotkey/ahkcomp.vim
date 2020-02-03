@@ -1,5 +1,5 @@
 ""
- " @brief 
+ " @brief
  " @file ahkcomplete.vim
  " @author Hulei
  " @version 1.0
@@ -13,9 +13,9 @@
 
 
 let s:plugin_path = escape(expand('<sfile>:p:h'), '\')
-"exe 'python sys.path = ["' . s:plugin_path . '"] + sys.path'
+"exe 'py3 sys.path = ["' . s:plugin_path . '"] + sys.path'
 
-python << PYEOL
+py3 << PYEOL
 import sys
 import vim
 sys.path.append(vim.eval("s:plugin_path"))
@@ -24,7 +24,7 @@ PYEOL
 
 function! DebugMsg(msg)
     "let g:debug_str = a:msg
-    "exe 'python debugmsg()'
+    "exe 'py3 debugmsg()'
 endfunction
 
 
